@@ -189,10 +189,6 @@ Select2.prototype = {
             };
         }
 
-        $select.on('change', function(e) {
-            $($select.get(0)).trigger(e);
-        });
-
         $select.select2(settings);
     },
     initSelect2: function() {
